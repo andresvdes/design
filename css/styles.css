@@ -1,6 +1,6 @@
 body{
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 15px;
+  font-family: helvetica;
+  font-size: 18px;
 }
 
 body, ul {
@@ -9,17 +9,17 @@ body, ul {
 }
 
 h1, h2, .skills-list {
-  font-family: 'Inknut Antiqua', serif;
+  font-family: serif;
 
 }
 img{
   max-width: 100%;
 }
 nav{
-  background-color: #DBEBF4;
   position: fixed;
   z-index: 1;
   width: 100%;
+  border-bottom:2px solid rgb(0,0,0); padding-bottom: -10px;
 }
 
 nav li a {
@@ -32,7 +32,7 @@ nav li a:hover {
 }
 nav ul li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 95px;
   padding: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -86,10 +86,6 @@ ul li {
   background: black;
   color: white;
 }
-figcaption{
-  font-size: 10px;
-  margin-top: 10px;
-}
 
 .skills-list {
   text-align: center;
@@ -119,10 +115,53 @@ footer h2 {
   text-align: right;
 }
 
-li.empty {
+/* li.empty {
   width: 90px;
   border-top: 1px solid black;
   top: -5px;
   position: relative;
 
+}*/
+
+li.circle {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border-style: solid;
+  margin-bottom: -22px;
+}
+
+.logo {
+  position: fixed; top: 0; left: 0;
+}
+.wrapper h2{
+  font-size: 99px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+
+
+.img {
+  position: relative;
+}
+
+
+span:before{
+  content: '';
+  animation: animate infinite 8s;
+}
+@keyframes animate {
+
+  0%{
+    content: 'Bienvenue'
+  }
+  50%{
+    content: 'Hello'
+  }
+  100%{
+    content: 'Bienvenido'
+  }
 }
