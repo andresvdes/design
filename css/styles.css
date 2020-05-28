@@ -17,7 +17,7 @@ img{
 }
 nav{
   position: fixed;
-  z-index: 1;
+  z-index: 0;
   width: 100%;
   border-bottom:2px solid rgb(0,0,0); padding-bottom: -10px;
 }
@@ -135,17 +135,19 @@ li.circle {
 .logo {
   position: fixed; top: 0; left: 0;
 }
-.wrapper h2{
+.hero-text h2{
   font-size: 99px;
   position: absolute;
   top: 50px;
-  left: 0;
+  left: 80px;
   width: 100%;
 }
 
 
-.img {
+.hero-image img  {
   position: relative;
+  width: 100%;
+  padding-left: 300px;
 }
 
 
@@ -165,3 +167,5 @@ span:before{
     content: 'Bienvenido'
   }
 }
+
+.hero-image
