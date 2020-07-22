@@ -95,7 +95,7 @@ text-align: left;
 
 .foo3 p {
   text-align: right;
-  margin-right: 380px;
+  margin-right: 405px;
   margin-top: -10px;
 }
 
@@ -155,7 +155,7 @@ span:before{
 display: inline-block;
 width: 927px;
 height: 530px;
-margin-bottom: 100px;
+margin-bottom: 150px;
 }
 .mycontainer img {
   max-width:100%;
@@ -214,21 +214,24 @@ max-height:100%;
 }
 .overlay {
   position: relative;
-  width: 927px;
-  height: 530px;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #8AB4C4;
   bottom: 535px;
 }
 
 .mycontainer:hover .overlay {
-  opacity: 1;
+  opacity: 0.98;
 }
 
 .text {
+  z-index: 1;
   color: white;
-  font-size: 20px;
+  font-size: 90px;
+  font-family: montserrat;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
