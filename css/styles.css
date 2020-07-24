@@ -52,22 +52,23 @@ a {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 90px;
   line-height: 130%;
 }
 h2 {
-  font-size: 60px;
+  font-size: 36px;
   line-height: 130%;
 }
-
-h1, h2 {
+h3 {
+  font-size: 24px;
+  line-height: 130%;
+}
+h1, h2, h3 {
   font-weight: bold;
   font-family: montserrat;
 }
 
-p{
-  line-height: 130%;
-}
+
 .foo1:hover {
   color: #DB995A;
   transition: color 0.5s ease-in-out;
@@ -80,7 +81,7 @@ p{
 }
 
 
-.foo1 h2 {
+.foo1 h1 {
   display: inline-block;
 font-size: 90px;
 text-align: left;
@@ -95,7 +96,7 @@ text-align: left;
 
 .foo3 p {
   text-align: right;
-  margin-right: 405px;
+  margin-right: 370px;
   margin-top: -10px;
 }
 
@@ -113,18 +114,16 @@ top: 100px;
 
 writing-mode: vertical-lr;
 padding-left: 1px;
-margin-left: 1300px;
+margin-left: 1150px;
 z-index: 100;
 position: absolute;
-margin-top: -333px;
+margin-top: -330px;
 border-left: 4px solid #F7F7F2;
 font-family: montserrat;
 
 
 }
-.abouttitle {
-  font-size: 90px;
-}
+
 
 .hero-image img  {
     position: relative;
@@ -159,14 +158,6 @@ margin-bottom: 150px;
 }
 .mycontainer img {
 max-height:100%;
-}
-
-}
-
-{{{{{{}}}}}}
-.button:hover{
-  background: black;
-  color: white;
 }
 
 .projectabout {
@@ -208,9 +199,8 @@ max-height:100%;
   margin-right: 50px;
 }
 
-.imgcol {
-  margin-top: 50px;
-}
+
+
 .overlay {
   position: relative;
   width: 100%;
@@ -238,4 +228,7 @@ max-height:100%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.next-project{
+  font-family: Montserrat;
 }
