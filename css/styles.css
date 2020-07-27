@@ -100,17 +100,7 @@ text-align: left;
   margin-top: -10px;
 }
 
-.hero-text h1{
-
-  font-size: 90px;
-  line-height: 130%;
-  position: absolute;
-width: 800px;
-height: 400px;
-left: 333px;
-top: 100px;
-}
-.hero-text p{
+.container-fluid p{
 
 writing-mode: vertical-lr;
 padding-left: 1px;
@@ -123,12 +113,6 @@ font-family: montserrat;
 
 
 }
-
-
-.hero-image img  {
-    position: relative;
-}
-
 
 span:before{
   content: '';
@@ -167,17 +151,6 @@ max-height:100%;
 
 .container1 {
   padding-right: 100px;
-}
-
-.button {
-  border: 1px solid black;
-  text-decoration: none;
-  color: black;
-  padding: 10px 30px;
-  margin-top: 40px;
-  display: inline-block;
-  border-radius: 20px;
-  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 
@@ -231,4 +204,16 @@ max-height:100%;
 }
 .next-project{
   font-family: Montserrat;
+}
+
+.container-fluid h1{
+  position: absolute;
+  font-size: 90px;
+  line-height: 110%;
+  position: absolute;
+      top: 35%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%) }
+
 }
