@@ -19,7 +19,9 @@ body{
 img{
   max-width: 100%;
 }
-
+.container-fluid img {
+  width: 100%;
+}
 .fixed-nav-bar {
 
   position: fixed;
@@ -116,6 +118,15 @@ font-family: montserrat;
 
 }
 
+.vertical p {
+  writing-mode: vertical-lr;
+  font-family: montserrat;
+border-left: 4px solid #FCFAF7;
+  position: fixed; top: 500px; right: 100px;
+  position: absolute;
+  padding-bottom: 60px;
+}
+
 span:before{
   content: '';
   animation: animate infinite 15s;
@@ -204,6 +215,10 @@ max-height:100%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.text p {
+  font-size: 20px;
+}
 .next-project{
   font-family: Montserrat;
 }
@@ -222,4 +237,9 @@ max-height:100%;
 
 .col a {
 text-decoration: underline;
+}
+
+.col figure {
+  border: 30px solid;
+  border-color: #fff;
 }
